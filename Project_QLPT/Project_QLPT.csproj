@@ -1,0 +1,1162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18A71928-0BEA-48C1-BA31-FBF8B693A03B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project_QLPT</RootNamespace>
+    <AssemblyName>Project_QLPT</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1427.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1427.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1427.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1427.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1427.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataBase\ACCOUNT.cs" />
+    <Compile Include="DataBase\NGUOITHUE.cs" />
+    <Compile Include="DataBase\PHIEUTHUE.cs" />
+    <Compile Include="DataBase\PHONG.cs" />
+    <Compile Include="DataBase\QLPT_DB.cs" />
+    <Compile Include="frmChangePass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmChangePass.Designer.cs">
+      <DependentUpon>frmChangePass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmCustomer.Designer.cs">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmHome.Designer.cs">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmRent.Designer.cs">
+      <DependentUpon>frmRent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRoom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmRoom.Designer.cs">
+      <DependentUpon>frmRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStatis.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmStatis.Designer.cs">
+      <DependentUpon>frmStatis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="statisBills.cs" />
+    <EmbeddedResource Include="frmChangePass.resx">
+      <DependentUpon>frmChangePass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomer.resx">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHome.resx">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRent.resx">
+      <DependentUpon>frmRent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRoom.resx">
+      <DependentUpon>frmRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatis.resx">
+      <DependentUpon>frmStatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="rptBills.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomer.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptRoom.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Project_QLPT.DataBase.NGUOITHUE.datasource" />
+    <None Include="Properties\DataSources\Project_QLPT.DataBase.PHONG.datasource" />
+    <None Include="Properties\DataSources\statisBills.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align-justify-arrange-alignment-style-44409.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adjust-ad-auto-button-a-setting-44384.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adjust-brightness-display-setting-half-44386.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align-center-justify-arrange-alignment-44385.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align-left-justify-arrange-alignment-44388.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align-right-justify-arrange-alignment-44451.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\amazon-a-load-shopping-marketplace-online-store-44447.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ambulance-plus-medical-medicine-treatment-hospital-emergency-44410.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\american-express-credit-debit-card-bank-transaction-44542.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anchor-sailling-ship-armature-kedge-anker-44448.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\android-device-symbol-logo-version-software-operating-system-os-44387.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angellist-victory-win-award-reward-fund-44423.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle-double-down-arrow-bottom-44446.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle-double-left-arrow-bacward-44393.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle-double-right-forward-arrow-44392.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle-double-up-arrow-top-44391.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle-down-arrow-direction-path-way-44424.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle-left-arrow-direction-path-way-navigation-44422.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle-right-arrow-direction-path-way-44390.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle-up-arrow-direction-path-way-navigation-44389.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apple-ios-operating-system-iphone-os-44425.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archive-zip-save-data-memory-box-pack-44394.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\area-chart-graph-statistics-review-analysis-44450.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-button-navigation-circle-left-44449.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-button-navigation-circle-up-44398.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-circle-down-button-navigation-44399.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-circle-o-down-button-navigation-44395.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-circle-o-left-button-navigation-44396.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-circle-o-right-button-navigation-44445.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-circle-o-up-button-navigation-44444.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-circle-right-button-navigation-44397.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-down-path-direction-bottom-44458.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-left-path-direction-turn-traffic-44401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-right-path-direction-turn-44400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows-alt-path-direction-cross-four-way-44457.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows-horizontal-both-side-bidirectional-way-44403.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows-path-direction-four-way-44404.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-up-path-direction-top-traffic-follow-44454.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-vertical-up-down-direction-path-44402.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asterisk-multiply-sign-symbol-multiplication-maths-star-44405.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\at-sign-loctaion-symbol-a-mail-44406.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\automobile-vehicle-car-transport-travel-44407.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backward-reverse-arrow-back-44408.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\balance-scale-weight-control-justice-law-measure-44411.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ban-block-suspend-round-no-not-44412.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bank-business-income-finance-omy-44452.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barcode-reader-scanner-electronic-device-44413.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar-chart-column-graph-statistics-analysis-44414.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bars-collection-view-application-grid-menu-44415.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-charge-law-charging-damage-full-1-44453.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-charge-law-charging-damage-full-44427.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-charge-law-charging-damage-require-1-44420.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-charge-law-charging-damage-require-2-44421.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-charge-law-charging-damage-require-3-44426.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-charge-law-charging-damage-require-44419.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-empty-charge-law-charging-damage-require-44416.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-half-charge-law-charging-damage-require-44417.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-quarter-charge-law-charging-damage-require-44455.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-three-quarters-charge-law-charging-damage-require-44418.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed-rest-person-room-sleep-take-care-44428.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beer-alcohol-helath-drink-fun-44429.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\behance-design-logo-symbol-tool-software-site-44430.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\behance-square-logo-symbol-style-site-tool-44432.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell-o-ring-alarm-voice-reminder-44431.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell-ring-alarm-voice-reminder-44433.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell-slash-no-not-ring-alarm-voice-reminder-44435.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell-slash-o-ring-alarm-voice-reminder-44434.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bicycle-ride-travel-cycle-vehicle-helath-44436.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\binoculars-watch-near-far-device-instrument-tool-lense-glass-44437.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\birthday-cake-candle-celebration-fun-enjoy-wish-44456.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitbucket-cup-glass-coffee-drink-tea-hot-44438.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitbucket-cup-glass-coffee-drink-tea-hotsquare-44439.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitcoin-currency-income-omy-finance-44533.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitcoin-currency-virtual-sensex-high-finance-income-omy-44459.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluetooth-transfer-file-data-sharing-sign-exchange-44442.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluetooth-transfer-file-data-sharing-sign-exchange-b-44440.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold-style-edit-highlist-editing-format-44441.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolt-thunder-weather-change-effect-44443.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bomb-explosion-attack-weapon-grenade-44532.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookmark-o-tag-label-card-ribbon-offer-44546.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookmark-tag-label-card-ribbon-offer-44527.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-study-education-school-growth-44530.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\briefcase-case-work-bag-suitcase-stationary-44555.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bug-ladybug-kit-error-animal-insect-44547.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building-o-town-highrise-home-flat-apartment-house-44554.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building-town-highrise-home-flat-apartment-house-44534.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bull-horn-branding-marketing-promotion-voice-announcement-44549.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullseye-target-goal-achive-success-44556.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus-transport-vehicle-travel-tour-auotmobile-44529.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy-sell-ads-advertise-black-symbol-44541.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cab-texi-transport-travel-car-vehicle-44545.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator-calculate-maths-scientific-calc-44531.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-check-time-date-schedule-manage-verify-44536.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-minus-time-date-schedule-manage-month-year-44528.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-o-time-date-schedule-manage-month-year-reminder-44535.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-plus-time-date-schedule-manage-add-insert-reminder-44558.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-time-date-schedule-manage-month-year-reminder-44560.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-times-time-date-schedule-manage-month-remove-cross-44559.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera-capture-focus-lense-image-picture-video-44537.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera-retro-capture-focus-lense-image-picture-video-shooting-44538.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caret-down-arrow-navigation-44553.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caret-left-darrow-navigation-44539.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caret-right-arrow-navigation-44570.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caret-square-down-button-arrow-navigation-44540.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caret-square-left-button-arrow-navigation-44543.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caret-square-right-button-arrow-navigation-44564.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caret-up-arrow-navigation-44563.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caret-up-button-arrow-navigationsquare-44544.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart-arrow-down-shopping-insert-44562.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart-plus-shopping-insert-44561.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc-credit-debit-card-bank-transaction-44566.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\certificate-label-decoration-celebration-ribbon-decore-44548.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-notch-break-unfill-broke-round-44580.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-round-black-fill-44581.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-round-white-unfill-44585.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-thin-stroke-round-44590.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard-note-document-file-important-44584.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock-nine-time-manage-schedule-reminder-44582.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clone-copy-duplicate-file-44586.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-remove-cross-multiply-44583.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud-download-internet-data-sharing-free-44589.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud-internet-data-sharing-free-44587.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud-upload-internet-data-sharing-44588.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\code-development-coding-programming-language-44592.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\code-fork-algorithm-stack-diagram-flowchart-44591.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\codepen-square-qube-bxing-ring-44593.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\codiepie-pacman-game-design-piechart-44594.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-drink-cup-mug-tea-hot-44595.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cogs-wheel-gears-settings-44596.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cog-wheel-gear-setting-44597.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\columns-window-grid-view-split-44598.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comment-chat-communication-text-bubble-chatting-44616.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comment-chat-communication-text-bubble-chatting-communicate-44610.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\commenting-chat-communication-text-bubble-chatting-typnig-44615.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\commenting-typing-chat-communication-text-bubble-chatting-44618.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comments-chat-communication-text-bubble-chatting-talk-44609.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comments-chat-communication-text-bubble-chatting-whatsapp-44607.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compass-direction-measure-device-find-way-44613.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compress-minimize-small-arrow-44612.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connect-develop-design-hexagon-zigzag-44602.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact-c-symbol-sign-44606.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy-duplicate-clone-document-zerox-print-44614.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copyright-c-symbol-sign-44603.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\creative-commons-license-free-comtribute-share-44617.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit-card-debit-bank-transaction-44599.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit-card-debit-bank-transaction-atm-44600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crop-image-resize-small-compress-picture-44605.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crosshairs-target-select-bullseye-goal-eye-44611.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\css-coding-programming-language-logo-44608.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cubes-symmetrical-three-dimensional-shape-design-44604.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cube-symmetrical-three-dimensional-shapedesign-44601.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\currency-yen-income-finance-earn-44626.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cutlery-tool-knive-fork-spoon-utensil-44638.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut-scissor-stationary-tool-44630.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chain-broken-link-break-attachment-disjoint-44569.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chain-link-attach-append-joint-44565.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-right-accpet-verify-perfect-approve-44568.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-right-accpet-verify-perfect-approve-button-circle-44550.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-right-accpet-verify-perfect-approvecircle-44557.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-right-accpet-verify-perfect-approve-file-square-44551.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-right-accpet-verify-perfect-approve-square-44552.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-circle-down-bottom-navigtion-44567.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-circle-left-turn-swipe-navigtion-44571.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-down-bottom-navigtion-44572.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-left-turn-swipe-navigtion-44573.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-turn-swipe-circle-right-navigtion-44574.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-turn-swipe-right-navigtion-44578.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-up-swipe-top-navigtion-44575.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-up-swipe-top-navigtion-circle-44576.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\child-parent-free-ngo-avatar-male-person-44577.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrome-web-browser-google-symbol-44579.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard-measure-progress-report-key-performance-indicators-44631.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashcube-measure-progress-report-key-performance-indicators-44623.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database-data-save-rack-dbms-management-44627.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dedent-text-wrap-style-edit-editing-44621.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delicious-grid-tile-arrange-shape-44635.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-computer-device-monitor-electronic-44629.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deviantart-online-community-logo-symbol-website-44634.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond-gems-crystal-jewellery-cubic-44620.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\digg-news-aggregator-logo-symbol-website-44619.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diners-club-credit-debit-card-bank-transaction-44622.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discover-diners-club-credit-card-bank-transaction-44632.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar-sign-currency-income-omy-money-finance-symbol-44624.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dot-circle-round-black-hole-44636.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-device-arrow-down-copy-computing-44628.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dribbble-design-designer-website-portfolio-logo-44625.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dropbox-file-hosting-service-logo-44637.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drupal-open-source-platform-digital-experiences-44633.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edge-web-browser-internet-windows-44641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-note-memo-pen-add-change-44640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eject-remove-throw-force-out-safely-sign-symbol-44643.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ellipsis-horizontal-menu-grid-collection-44652.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ellipsis-vertical-menu-grid-collection-44650.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empire-wheel-kingdom-cog-44653.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envelope-mail-email-message-letter-note-communication-44644.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envelope-mail-email-message-letter-note-inbox-communication-44649.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envelope-mail-email-message-letter-note-inbox-communication-square-44648.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser-rubber-ink-remove-written-44639.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\euro-currency-sign-money-income-finance-44654.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exclamation-punctuation-mark-point-amaze-44647.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exclamation-punctuation-mark-point-amaze-circle-round-44646.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exclamation-punctuation-mark-point-amaze-note-44656.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exchange-swape-arrow-left-right-44655.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expand-maximize-big-large-resize-44651.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expeditedssl-platform-secure-safe-ssl-44645.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\external-link-share-transfer-file-document-download-44657.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\external-link-share-transfer-file-document-download-square-44642.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyedropper-picker-pick-colour-effect-tool-44661.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-see-watch-human-body-organ-part-effect-44658.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-slash-eyedropper-picker-pick-colour-effect-tool-44660.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-social-media-fb-logo-44663.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-social-media-fb-logo-official-44662.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-social-media-fb-logo-square-44659.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fast-backward-reverse-back-music-player-46181.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fast-forward-front-music-player-46186.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fax-device-machine-paper-call-46182.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female-people-person-girl-woman-46207.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fighter-jet-attack-airforce-planeattack-46189.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-archive-zip-compress-document-data-46193.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-audio-volume-speaker-music-document-sound-46184.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-code-coding-programming-data-46185.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-document-paper-important-46179.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-excel-exe-extension-document-46208.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-image-document-gallery-picture-photo-46187.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-movie-mvi-video-capture-data-document-46188.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-paper-document-important-data-collection-46180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-pdf-documentation-document-word-46194.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-powerpoint-presentation-document-ppt-46183.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-photo-gallery-image-picture-data-document-46199.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\files-document-data-information-copy-clone-46200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-text-document-word-txt-note-notepad-46197.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-text-document-word-txt-note-notepad-o-46198.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-word-text-data-document-46206.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\film-media-music-multimedia-intertainment-46205.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter-conversion-exchange-remove-throw-exit-46190.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire-extinguisher-life-save-saver-heat-machine-46191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firefox-web-browser-software-windows-46209.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire-heat-science-flame-light-46192.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag-checkered-win-victory-host-46195.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag-win-victory-host-o-46196.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag-win-victory-host-plain-46201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flash-bolt-thunder-light-rainy-46202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flask-liquid-chemistry-science-project-research-46203.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flickr-community-website-online-logo-46204.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floppy-disk-harware-save-file-data-46210.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-data-file-collection-document-46216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-data-file-collection-document-important-46212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-open-data-file-collection-document-important-46213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-open-data-file-collection-document-important-new-46211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonts-wordpress-website-online-logo-46215.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font-text-alphabet-word-letter-a-46214.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\football-play-game-sport-46217.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fort-flag-host-indian-proud-awesome-46218.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forumbee-community-forums-software-logo-46219.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forward-arrow-double-music-player-46220.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foursquare-local-search-discovery-service-mobile-app-logo-46221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frown-facial-expression-or-look-glore-emoji-46222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gamepad-play-remote-playstation-videogame-joystick-46223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gavel-small-hammer-attention-law-justice-46224.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gbp-british-pound-currency-omy-finance-46225.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\genderless-neutral-agender-no-not-46226.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\get-pocket-wallet-money-save-income-transfer-transaction-46227.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gg-good-game-play-logo-46229.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gg-good-game-play-logo-circle-46228.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glass-drink-water-alchohol-crockery-46237.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globe-world-wide-earth-planet-ecology-46238.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-plus-share-find-anything-social-media-46240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-plus-share-find-anything-social-media-square-46239.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-search-engine-find-anything-46241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-wallet-fast-easy-free-way-transfer-send-money-46242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graduation-cap-hat-study-degree-46243.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group-team-communication-compney-employee-community-46244.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gift-present-prize-celebration-christmas-46230.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\git-free-opensource-distributed-version-control-system-square-46231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\git-online-project-hosting-logo-46232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gittip-gratipay-platform-sustainable-crowd-funding-46236.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\github-online-project-hosting-alt-website-logo-46233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\github-online-project-hosting-square-46234.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\github-online-project-hosting-website-logo-46235.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hacker-news-ycombinator-hack-logo-46246.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-down-sign-symbol-gesture-show-way-direction-46247.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-grab-rock-sign-symbol-gesture-46248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-left-sign-symbol-gesture-show-way-direction-46249.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-lizard-sign-symbol-gesture-shadow-46250.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-peace-sign-symbol-gesture-victory-win-46251.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-pointer-sign-symbol-gesture-show-way-direction-46252.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-right-sign-symbol-gesture-show-way-direction-46253.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-scissors-sign-symbol-gesture-gme-play-46254.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-spock-sign-symbol-gesture-fun-46255.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-stop-highfive-paper-sign-symbol-gesture-show-game-46256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-up-sign-symbol-gesture-show-way-direction-46257.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hashtag-tag-programming-language-connect-46258.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hdd-harddisk-drive-save-data-file-46259.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header-h-title-tagline-style-46260.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\headphones-earphone-music-sound-play-46262.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heartbeat-heart-love-like-favorite-save-46264.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart-love-like-favorite-46263.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart-love-like-favorite-save-46261.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h-hike-social-media-logo-square-46245.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history-watch-time-manage-visit-cache-46265.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-house-building-page-city-casa-old-vintage-46266.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital-medical-treatment-care-save-life-treat-46267.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel-bed-rest-room-person-46269.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hourglass-empty-time-manage-control-46268.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hourglass-end-time-manage-control-46270.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hourglass-full-time-manage-control-46271.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hourglass-half-time-manage-control-46272.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hourglass-start-ready-time-manage-control-46273.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hourglass-time-manage-control-one-46275.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hourglass-two-time-manage-control-46276.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hourglass-three-time-manage-control-46274.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\houzz-online-design-home-connect-logo-46277.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\html-programming-language-css-editing-style-46278.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i-cursor-spark-light-music-mac-logo-46279.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\px-pixel-grid-500-5-44526.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\218614995.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d9bda5de9e5e1db5cc032b17fe7b89ad %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

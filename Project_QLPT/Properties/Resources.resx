@@ -1,0 +1,1078 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="codepen-square-qube-bxing-ring-44593" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\codepen-square-qube-bxing-ring-44593.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desktop-computer-device-monitor-electronic-44629" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desktop-computer-device-monitor-electronic-44629.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="female-people-person-girl-woman-46207" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\female-people-person-girl-woman-46207.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expand-maximize-big-large-resize-44651" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expand-maximize-big-large-resize-44651.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="camera-retro-capture-focus-lense-image-picture-video-shooting-44538" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\camera-retro-capture-focus-lense-image-picture-video-shooting-44538.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="external-link-share-transfer-file-document-download-44657" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\external-link-share-transfer-file-document-download-44657.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="currency-yen-income-finance-earn-44626" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\currency-yen-income-finance-earn-44626.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i-cursor-spark-light-music-mac-logo-46279" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i-cursor-spark-light-music-mac-logo-46279.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ellipsis-vertical-menu-grid-collection-44650" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ellipsis-vertical-menu-grid-collection-44650.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag-win-victory-host-o-46196" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag-win-victory-host-o-46196.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database-data-save-rack-dbms-management-44627" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database-data-save-rack-dbms-management-44627.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hourglass-time-manage-control-one-46275" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hourglass-time-manage-control-one-46275.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hashtag-tag-programming-language-connect-46258" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hashtag-tag-programming-language-connect-46258.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-image-document-gallery-picture-photo-46187" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-image-document-gallery-picture-photo-46187.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cart-arrow-down-shopping-insert-44562" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cart-arrow-down-shopping-insert-44562.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevron-down-bottom-navigtion-44572" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-down-bottom-navigtion-44572.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bell-slash-o-ring-alarm-voice-reminder-44434" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bell-slash-o-ring-alarm-voice-reminder-44434.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exclamation-punctuation-mark-point-amaze-note-44656" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exclamation-punctuation-mark-point-amaze-note-44656.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clone-copy-duplicate-file-44586" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clone-copy-duplicate-file-44586.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="github-online-project-hosting-website-logo-46235" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\github-online-project-hosting-website-logo-46235.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bluetooth-transfer-file-data-sharing-sign-exchange-b-44440" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bluetooth-transfer-file-data-sharing-sign-exchange-b-44440.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="code-development-coding-programming-language-44592" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\code-development-coding-programming-language-44592.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="forumbee-community-forums-software-logo-46219" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forumbee-community-forums-software-logo-46219.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eyedropper-picker-pick-colour-effect-tool-44661" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyedropper-picker-pick-colour-effect-tool-44661.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder-open-data-file-collection-document-important-new-46211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder-open-data-file-collection-document-important-new-46211.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dribbble-design-designer-website-portfolio-logo-44625" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dribbble-design-designer-website-portfolio-logo-44625.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heartbeat-heart-love-like-favorite-save-46264" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heartbeat-heart-love-like-favorite-save-46264.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevron-up-swipe-top-navigtion-circle-44576" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-up-swipe-top-navigtion-circle-44576.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bookmark-o-tag-label-card-ribbon-offer-44546" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bookmark-o-tag-label-card-ribbon-offer-44546.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevron-left-turn-swipe-navigtion-44573" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-left-turn-swipe-navigtion-44573.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle-round-white-unfill-44585" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle-round-white-unfill-44585.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrows-alt-path-direction-cross-four-way-44457" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrows-alt-path-direction-cross-four-way-44457.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coffee-drink-cup-mug-tea-hot-44595" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coffee-drink-cup-mug-tea-hot-44595.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cc-credit-debit-card-bank-transaction-44566" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cc-credit-debit-card-bank-transaction-44566.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-circle-o-up-button-navigation-44444" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-circle-o-up-button-navigation-44444.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="balance-scale-weight-control-justice-law-measure-44411" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\balance-scale-weight-control-justice-law-measure-44411.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="commenting-typing-chat-communication-text-bubble-chatting-44618" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\commenting-typing-chat-communication-text-bubble-chatting-44618.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-excel-exe-extension-document-46208" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-excel-exe-extension-document-46208.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand-left-sign-symbol-gesture-show-way-direction-46249" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand-left-sign-symbol-gesture-show-way-direction-46249.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dashboard-measure-progress-report-key-performance-indicators-44631" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard-measure-progress-report-key-performance-indicators-44631.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comment-chat-communication-text-bubble-chatting-44616" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comment-chat-communication-text-bubble-chatting-44616.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery-charge-law-charging-damage-require-2-44421" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery-charge-law-charging-damage-require-2-44421.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bitcoin-currency-virtual-sensex-high-finance-income-omy-44459" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bitcoin-currency-virtual-sensex-high-finance-income-omy-44459.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heart-love-like-favorite-save-46261" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heart-love-like-favorite-save-46261.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comments-chat-communication-text-bubble-chatting-talk-44609" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comments-chat-communication-text-bubble-chatting-talk-44609.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check-right-accpet-verify-perfect-approve-44568" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check-right-accpet-verify-perfect-approve-44568.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filter-conversion-exchange-remove-throw-exit-46190" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filter-conversion-exchange-remove-throw-exit-46190.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heart-love-like-favorite-46263" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heart-love-like-favorite-46263.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angellist-victory-win-award-reward-fund-44423" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angellist-victory-win-award-reward-fund-44423.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angle-double-left-arrow-bacward-44393" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angle-double-left-arrow-bacward-44393.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="forward-arrow-double-music-player-46220" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forward-arrow-double-music-player-46220.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cab-texi-transport-travel-car-vehicle-44545" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cab-texi-transport-travel-car-vehicle-44545.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frown-facial-expression-or-look-glore-emoji-46222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frown-facial-expression-or-look-glore-emoji-46222.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="firefox-web-browser-software-windows-46209" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\firefox-web-browser-software-windows-46209.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expeditedssl-platform-secure-safe-ssl-44645" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expeditedssl-platform-secure-safe-ssl-44645.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="external-link-share-transfer-file-document-download-square-44642" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\external-link-share-transfer-file-document-download-square-44642.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fort-flag-host-indian-proud-awesome-46218" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fort-flag-host-indian-proud-awesome-46218.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hdd-harddisk-drive-save-data-file-46259" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hdd-harddisk-drive-save-data-file-46259.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrows-horizontal-both-side-bidirectional-way-44403" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrows-horizontal-both-side-bidirectional-way-44403.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-movie-mvi-video-capture-data-document-46188" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-movie-mvi-video-capture-data-document-46188.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="houzz-online-design-home-connect-logo-46277" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\houzz-online-design-home-connect-logo-46277.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clipboard-note-document-file-important-44584" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipboard-note-document-file-important-44584.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand-spock-sign-symbol-gesture-fun-46255" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand-spock-sign-symbol-gesture-fun-46255.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-left-path-direction-turn-traffic-44401" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-left-path-direction-turn-traffic-44401.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="history-watch-time-manage-visit-cache-46265" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\history-watch-time-manage-visit-cache-46265.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bomb-explosion-attack-weapon-grenade-44532" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bomb-explosion-attack-weapon-grenade-44532.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angle-double-up-arrow-top-44391" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angle-double-up-arrow-top-44391.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angle-right-arrow-direction-path-way-44390" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angle-right-arrow-direction-path-way-44390.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angle-up-arrow-direction-path-way-navigation-44389" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angle-up-arrow-direction-path-way-navigation-44389.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar-check-time-date-schedule-manage-verify-44536" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar-check-time-date-schedule-manage-verify-44536.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cog-wheel-gear-setting-44597" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cog-wheel-gear-setting-44597.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book-study-education-school-growth-44530" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book-study-education-school-growth-44530.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dropbox-file-hosting-service-logo-44637" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dropbox-file-hosting-service-logo-44637.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angle-double-down-arrow-bottom-44446" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angle-double-down-arrow-bottom-44446.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fire-heat-science-flame-light-46192" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fire-heat-science-flame-light-46192.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caret-square-right-button-arrow-navigation-44564" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caret-square-right-button-arrow-navigation-44564.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-right-path-direction-turn-44400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-right-path-direction-turn-44400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="creative-commons-license-free-comtribute-share-44617" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\creative-commons-license-free-comtribute-share-44617.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="px-pixel-grid-500-5-44526" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\px-pixel-grid-500-5-44526.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d9bda5de9e5e1db5cc032b17fe7b89ad (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d9bda5de9e5e1db5cc032b17fe7b89ad (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="group-team-communication-compney-employee-community-46244" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\group-team-communication-compney-employee-community-46244.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-circle-o-right-button-navigation-44445" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-circle-o-right-button-navigation-44445.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="at-sign-loctaion-symbol-a-mail-44406" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\at-sign-loctaion-symbol-a-mail-44406.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drupal-open-source-platform-digital-experiences-44633" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drupal-open-source-platform-digital-experiences-44633.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exchange-swape-arrow-left-right-44655" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exchange-swape-arrow-left-right-44655.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-word-text-data-document-46206" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-word-text-data-document-46206.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bullseye-target-goal-achive-success-44556" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bullseye-target-goal-achive-success-44556.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gbp-british-pound-currency-omy-finance-46225" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gbp-british-pound-currency-omy-finance-46225.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check-right-accpet-verify-perfect-approve-square-44552" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check-right-accpet-verify-perfect-approve-square-44552.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar-o-time-date-schedule-manage-month-year-reminder-44535" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar-o-time-date-schedule-manage-month-year-reminder-44535.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloud-download-internet-data-sharing-free-44589" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloud-download-internet-data-sharing-free-44589.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="github-online-project-hosting-alt-website-logo-46233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\github-online-project-hosting-alt-website-logo-46233.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand-up-sign-symbol-gesture-show-way-direction-46257" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand-up-sign-symbol-gesture-show-way-direction-46257.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevron-up-swipe-top-navigtion-44575" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-up-swipe-top-navigtion-44575.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle-thin-stroke-round-44590" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle-thin-stroke-round-44590.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amazon-a-load-shopping-marketplace-online-store-44447" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\amazon-a-load-shopping-marketplace-online-store-44447.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bitbucket-cup-glass-coffee-drink-tea-hot-44438" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bitbucket-cup-glass-coffee-drink-tea-hot-44438.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edge-web-browser-internet-windows-44641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edge-web-browser-internet-windows-44641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fighter-jet-attack-airforce-planeattack-46189" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fighter-jet-attack-airforce-planeattack-46189.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="html-programming-language-css-editing-style-46278" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\html-programming-language-css-editing-style-46278.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="birthday-cake-candle-celebration-fun-enjoy-wish-44456" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\birthday-cake-candle-celebration-fun-enjoy-wish-44456.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery-three-quarters-charge-law-charging-damage-require-44418" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery-three-quarters-charge-law-charging-damage-require-44418.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="align-right-justify-arrange-alignment-44451" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\align-right-justify-arrange-alignment-44451.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dedent-text-wrap-style-edit-editing-44621" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dedent-text-wrap-style-edit-editing-44621.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="android-device-symbol-logo-version-software-operating-system-os-44387" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\android-device-symbol-logo-version-software-operating-system-os-44387.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bank-business-income-finance-omy-44452" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bank-business-income-finance-omy-44452.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevron-turn-swipe-circle-right-navigtion-44574" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-turn-swipe-circle-right-navigtion-44574.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digg-news-aggregator-logo-symbol-website-44619" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digg-news-aggregator-logo-symbol-website-44619.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angle-down-arrow-direction-path-way-44424" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angle-down-arrow-direction-path-way-44424.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="graduation-cap-hat-study-degree-46243" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\graduation-cap-hat-study-degree-46243.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="code-fork-algorithm-stack-diagram-flowchart-44591" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\code-fork-algorithm-stack-diagram-flowchart-44591.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar-plus-time-date-schedule-manage-add-insert-reminder-44558" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar-plus-time-date-schedule-manage-add-insert-reminder-44558.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery-charge-law-charging-damage-require-44419" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery-charge-law-charging-damage-require-44419.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="genderless-neutral-agender-no-not-46226" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\genderless-neutral-agender-no-not-46226.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caret-square-down-button-arrow-navigation-44540" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caret-square-down-button-arrow-navigation-44540.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facebook-social-media-fb-logo-44663" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facebook-social-media-fb-logo-44663.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chain-broken-link-break-attachment-disjoint-44569" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chain-broken-link-break-attachment-disjoint-44569.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fast-forward-front-music-player-46186" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fast-forward-front-music-player-46186.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bold-style-edit-highlist-editing-format-44441" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bold-style-edit-highlist-editing-format-44441.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-code-coding-programming-data-46185" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-code-coding-programming-data-46185.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hourglass-start-ready-time-manage-control-46273" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hourglass-start-ready-time-manage-control-46273.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolt-thunder-weather-change-effect-44443" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bolt-thunder-weather-change-effect-44443.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cutlery-tool-knive-fork-spoon-utensil-44638" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cutlery-tool-knive-fork-spoon-utensil-44638.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adjust-brightness-display-setting-half-44386" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adjust-brightness-display-setting-half-44386.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check-right-accpet-verify-perfect-approve-button-circle-44550" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check-right-accpet-verify-perfect-approve-button-circle-44550.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="compress-minimize-small-arrow-44612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\compress-minimize-small-arrow-44612.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bed-rest-person-room-sleep-take-care-44428" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bed-rest-person-room-sleep-take-care-44428.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fast-backward-reverse-back-music-player-46181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fast-backward-reverse-back-music-player-46181.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit-note-memo-pen-add-change-44640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit-note-memo-pen-add-change-44640.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download-device-arrow-down-copy-computing-44628" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download-device-arrow-down-copy-computing-44628.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eraser-rubber-ink-remove-written-44639" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eraser-rubber-ink-remove-written-44639.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-circle-o-down-button-navigation-44395" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-circle-o-down-button-navigation-44395.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-down-path-direction-bottom-44458" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-down-path-direction-bottom-44458.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-circle-o-left-button-navigation-44396" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-circle-o-left-button-navigation-44396.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrows-path-direction-four-way-44404" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrows-path-direction-four-way-44404.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dashcube-measure-progress-report-key-performance-indicators-44623" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashcube-measure-progress-report-key-performance-indicators-44623.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="building-o-town-highrise-home-flat-apartment-house-44554" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\building-o-town-highrise-home-flat-apartment-house-44554.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery-charge-law-charging-damage-require-1-44420" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery-charge-law-charging-damage-require-1-44420.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bicycle-ride-travel-cycle-vehicle-helath-44436" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bicycle-ride-travel-cycle-vehicle-helath-44436.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bitcoin-currency-income-omy-finance-44533" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bitcoin-currency-income-omy-finance-44533.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fonts-wordpress-website-online-logo-46215" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fonts-wordpress-website-online-logo-46215.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buy-sell-ads-advertise-black-symbol-44541" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buy-sell-ads-advertise-black-symbol-44541.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="automobile-vehicle-car-transport-travel-44407" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\automobile-vehicle-car-transport-travel-44407.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backward-reverse-arrow-back-44408" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backward-reverse-arrow-back-44408.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facebook-social-media-fb-logo-official-44662" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facebook-social-media-fb-logo-official-44662.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="git-online-project-hosting-logo-46232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\git-online-project-hosting-logo-46232.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delicious-grid-tile-arrange-shape-44635" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delicious-grid-tile-arrange-shape-44635.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cart-plus-shopping-insert-44561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cart-plus-shopping-insert-44561.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-document-paper-important-46179" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-document-paper-important-46179.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ambulance-plus-medical-medicine-treatment-hospital-emergency-44410" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ambulance-plus-medical-medicine-treatment-hospital-emergency-44410.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloud-internet-data-sharing-free-44587" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloud-internet-data-sharing-free-44587.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand-lizard-sign-symbol-gesture-shadow-46250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand-lizard-sign-symbol-gesture-shadow-46250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hourglass-three-time-manage-control-46274" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hourglass-three-time-manage-control-46274.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand-down-sign-symbol-gesture-show-way-direction-46247" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand-down-sign-symbol-gesture-show-way-direction-46247.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="218614995" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\218614995.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-powerpoint-presentation-document-ppt-46183" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-powerpoint-presentation-document-ppt-46183.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand-scissors-sign-symbol-gesture-gme-play-46254" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand-scissors-sign-symbol-gesture-gme-play-46254.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bar-chart-column-graph-statistics-analysis-44414" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bar-chart-column-graph-statistics-analysis-44414.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="football-play-game-sport-46217" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\football-play-game-sport-46217.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google-wallet-fast-easy-free-way-transfer-send-money-46242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\google-wallet-fast-easy-free-way-transfer-send-money-46242.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery-quarter-charge-law-charging-damage-require-44455" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery-quarter-charge-law-charging-damage-require-44455.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caret-up-button-arrow-navigationsquare-44544" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caret-up-button-arrow-navigationsquare-44544.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye-slash-eyedropper-picker-pick-colour-effect-tool-44660" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye-slash-eyedropper-picker-pick-colour-effect-tool-44660.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="connect-develop-design-hexagon-zigzag-44602" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\connect-develop-design-hexagon-zigzag-44602.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-vertical-up-down-direction-path-44402" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-vertical-up-down-direction-path-44402.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google-plus-share-find-anything-social-media-46240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\google-plus-share-find-anything-social-media-46240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="files-document-data-information-copy-clone-46200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\files-document-data-information-copy-clone-46200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hourglass-half-time-manage-control-46272" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hourglass-half-time-manage-control-46272.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle-round-black-fill-44581" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle-round-black-fill-44581.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="align-left-justify-arrange-alignment-44388" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\align-left-justify-arrange-alignment-44388.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exclamation-punctuation-mark-point-amaze-circle-round-44646" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exclamation-punctuation-mark-point-amaze-circle-round-44646.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-text-document-word-txt-note-notepad-o-46198" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-text-document-word-txt-note-notepad-o-46198.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="git-free-opensource-distributed-version-control-system-square-46231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\git-free-opensource-distributed-version-control-system-square-46231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fax-device-machine-paper-call-46182" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fax-device-machine-paper-call-46182.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hourglass-empty-time-manage-control-46268" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hourglass-empty-time-manage-control-46268.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="behance-design-logo-symbol-tool-software-site-44430" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\behance-design-logo-symbol-tool-software-site-44430.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hotel-bed-rest-room-person-46269" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hotel-bed-rest-room-person-46269.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="get-pocket-wallet-money-save-income-transfer-transaction-46227" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\get-pocket-wallet-money-save-income-transfer-transaction-46227.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy-duplicate-clone-document-zerox-print-44614" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy-duplicate-clone-document-zerox-print-44614.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eject-remove-throw-force-out-safely-sign-symbol-44643" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eject-remove-throw-force-out-safely-sign-symbol-44643.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bell-ring-alarm-voice-reminder-44433" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bell-ring-alarm-voice-reminder-44433.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beer-alcohol-helath-drink-fun-44429" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beer-alcohol-helath-drink-fun-44429.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comment-chat-communication-text-bubble-chatting-communicate-44610" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comment-chat-communication-text-bubble-chatting-communicate-44610.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cube-symmetrical-three-dimensional-shapedesign-44601" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cube-symmetrical-three-dimensional-shapedesign-44601.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hacker-news-ycombinator-hack-logo-46246" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hacker-news-ycombinator-hack-logo-46246.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="header-h-title-tagline-style-46260" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\header-h-title-tagline-style-46260.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="child-parent-free-ngo-avatar-male-person-44577" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\child-parent-free-ngo-avatar-male-person-44577.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chain-link-attach-append-joint-44565" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chain-link-attach-append-joint-44565.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calculator-calculate-maths-scientific-calc-44531" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculator-calculate-maths-scientific-calc-44531.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-paper-document-important-data-collection-46180" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-paper-document-important-data-collection-46180.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euro-currency-sign-money-income-finance-44654" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euro-currency-sign-money-income-finance-44654.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clock-nine-time-manage-schedule-reminder-44582" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clock-nine-time-manage-schedule-reminder-44582.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-button-navigation-circle-left-44449" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-button-navigation-circle-left-44449.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flickr-community-website-online-logo-46204" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flickr-community-website-online-logo-46204.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="columns-window-grid-view-split-44598" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\columns-window-grid-view-split-44598.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder-data-file-collection-document-important-46212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder-data-file-collection-document-important-46212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="empire-wheel-kingdom-cog-44653" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\empire-wheel-kingdom-cog-44653.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder-data-file-collection-document-46216" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder-data-file-collection-document-46216.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gavel-small-hammer-attention-law-justice-46224" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gavel-small-hammer-attention-law-justice-46224.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="building-town-highrise-home-flat-apartment-house-44534" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\building-town-highrise-home-flat-apartment-house-44534.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crop-image-resize-small-compress-picture-44605" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crop-image-resize-small-compress-picture-44605.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archive-zip-save-data-memory-box-pack-44394" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archive-zip-save-data-memory-box-pack-44394.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exclamation-punctuation-mark-point-amaze-44647" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exclamation-punctuation-mark-point-amaze-44647.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hourglass-two-time-manage-control-46276" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hourglass-two-time-manage-control-46276.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="align-center-justify-arrange-alignment-44385" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\align-center-justify-arrange-alignment-44385.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterisk-multiply-sign-symbol-multiplication-maths-star-44405" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asterisk-multiply-sign-symbol-multiplication-maths-star-44405.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hospital-medical-treatment-care-save-life-treat-46267" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hospital-medical-treatment-care-save-life-treat-46267.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comments-chat-communication-text-bubble-chatting-whatsapp-44607" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comments-chat-communication-text-bubble-chatting-whatsapp-44607.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contact-c-symbol-sign-44606" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contact-c-symbol-sign-44606.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand-peace-sign-symbol-gesture-victory-win-46251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand-peace-sign-symbol-gesture-victory-win-46251.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery-charge-law-charging-damage-require-3-44426" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery-charge-law-charging-damage-require-3-44426.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caret-left-darrow-navigation-44539" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caret-left-darrow-navigation-44539.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand-stop-highfive-paper-sign-symbol-gesture-show-game-46256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand-stop-highfive-paper-sign-symbol-gesture-show-game-46256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chrome-web-browser-google-symbol-44579" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chrome-web-browser-google-symbol-44579.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crosshairs-target-select-bullseye-goal-eye-44611" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crosshairs-target-select-bullseye-goal-eye-44611.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fire-extinguisher-life-save-saver-heat-machine-46191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fire-extinguisher-life-save-saver-heat-machine-46191.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="css-coding-programming-language-logo-44608" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\css-coding-programming-language-logo-44608.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="behance-square-logo-symbol-style-site-tool-44432" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\behance-square-logo-symbol-style-site-tool-44432.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foursquare-local-search-discovery-service-mobile-app-logo-46221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foursquare-local-search-discovery-service-mobile-app-logo-46221.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-button-navigation-circle-up-44398" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-button-navigation-circle-up-44398.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copyright-c-symbol-sign-44603" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copyright-c-symbol-sign-44603.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand-right-sign-symbol-gesture-show-way-direction-46253" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand-right-sign-symbol-gesture-show-way-direction-46253.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery-charge-law-charging-damage-full-44427" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery-charge-law-charging-damage-full-44427.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="american-express-credit-debit-card-bank-transaction-44542" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\american-express-credit-debit-card-bank-transaction-44542.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-pdf-documentation-document-word-46194" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-pdf-documentation-document-word-46194.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand-grab-rock-sign-symbol-gesture-46248" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand-grab-rock-sign-symbol-gesture-46248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flash-bolt-thunder-light-rainy-46202" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flash-bolt-thunder-light-rainy-46202.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bitbucket-cup-glass-coffee-drink-tea-hotsquare-44439" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bitbucket-cup-glass-coffee-drink-tea-hotsquare-44439.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="credit-card-debit-bank-transaction-44599" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\credit-card-debit-bank-transaction-44599.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloud-upload-internet-data-sharing-44588" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloud-upload-internet-data-sharing-44588.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="binoculars-watch-near-far-device-instrument-tool-lense-glass-44437" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\binoculars-watch-near-far-device-instrument-tool-lense-glass-44437.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angle-double-right-forward-arrow-44392" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angle-double-right-forward-arrow-44392.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bug-ladybug-kit-error-animal-insect-44547" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bug-ladybug-kit-error-animal-insect-44547.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gg-good-game-play-logo-46229" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gg-good-game-play-logo-46229.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angle-left-arrow-direction-path-way-navigation-44422" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angle-left-arrow-direction-path-way-navigation-44422.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gittip-gratipay-platform-sustainable-crowd-funding-46236" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gittip-gratipay-platform-sustainable-crowd-funding-46236.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glass-drink-water-alchohol-crockery-46237" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glass-drink-water-alchohol-crockery-46237.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="compass-direction-measure-device-find-way-44613" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\compass-direction-measure-device-find-way-44613.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bus-transport-vehicle-travel-tour-auotmobile-44529" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bus-transport-vehicle-travel-tour-auotmobile-44529.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="discover-diners-club-credit-card-bank-transaction-44632" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\discover-diners-club-credit-card-bank-transaction-44632.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag-checkered-win-victory-host-46195" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag-checkered-win-victory-host-46195.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bell-slash-no-not-ring-alarm-voice-reminder-44435" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bell-slash-no-not-ring-alarm-voice-reminder-44435.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="film-media-music-multimedia-intertainment-46205" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\film-media-music-multimedia-intertainment-46205.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close-remove-cross-multiply-44583" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close-remove-cross-multiply-44583.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-circle-down-button-navigation-44399" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-circle-down-button-navigation-44399.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deviantart-online-community-logo-symbol-website-44634" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deviantart-online-community-logo-symbol-website-44634.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="camera-capture-focus-lense-image-picture-video-44537" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\camera-capture-focus-lense-image-picture-video-44537.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand-pointer-sign-symbol-gesture-show-way-direction-46252" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand-pointer-sign-symbol-gesture-show-way-direction-46252.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ban-block-suspend-round-no-not-44412" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ban-block-suspend-round-no-not-44412.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="headphones-earphone-music-sound-play-46262" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\headphones-earphone-music-sound-play-46262.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check-right-accpet-verify-perfect-approve-file-square-44551" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check-right-accpet-verify-perfect-approve-file-square-44551.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="codiepie-pacman-game-design-piechart-44594" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\codiepie-pacman-game-design-piechart-44594.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="envelope-mail-email-message-letter-note-inbox-communication-44649" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\envelope-mail-email-message-letter-note-inbox-communication-44649.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder-open-data-file-collection-document-important-46213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder-open-data-file-collection-document-important-46213.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dollar-sign-currency-income-omy-money-finance-symbol-44624" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dollar-sign-currency-income-omy-money-finance-symbol-44624.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-photo-gallery-image-picture-data-document-46199" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-photo-gallery-image-picture-data-document-46199.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevron-circle-down-bottom-navigtion-44567" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-circle-down-bottom-navigtion-44567.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag-win-victory-host-plain-46201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag-win-victory-host-plain-46201.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="commenting-chat-communication-text-bubble-chatting-typnig-44615" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\commenting-chat-communication-text-bubble-chatting-typnig-44615.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dot-circle-round-black-hole-44636" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dot-circle-round-black-hole-44636.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="align-justify-arrange-alignment-style-44409" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\align-justify-arrange-alignment-style-44409.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gift-present-prize-celebration-christmas-46230" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gift-present-prize-celebration-christmas-46230.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery-empty-charge-law-charging-damage-require-44416" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery-empty-charge-law-charging-damage-require-44416.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hourglass-full-time-manage-control-46271" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hourglass-full-time-manage-control-46271.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barcode-reader-scanner-electronic-device-44413" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barcode-reader-scanner-electronic-device-44413.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bluetooth-transfer-file-data-sharing-sign-exchange-44442" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bluetooth-transfer-file-data-sharing-sign-exchange-44442.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hourglass-end-time-manage-control-46270" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hourglass-end-time-manage-control-46270.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flask-liquid-chemistry-science-project-research-46203" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flask-liquid-chemistry-science-project-research-46203.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check-right-accpet-verify-perfect-approvecircle-44557" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check-right-accpet-verify-perfect-approvecircle-44557.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caret-square-left-button-arrow-navigation-44543" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caret-square-left-button-arrow-navigation-44543.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apple-ios-operating-system-iphone-os-44425" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apple-ios-operating-system-iphone-os-44425.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery-half-charge-law-charging-damage-require-44417" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery-half-charge-law-charging-damage-require-44417.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bookmark-tag-label-card-ribbon-offer-44527" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bookmark-tag-label-card-ribbon-offer-44527.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevron-circle-left-turn-swipe-navigtion-44571" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-circle-left-turn-swipe-navigtion-44571.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adjust-ad-auto-button-a-setting-44384" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adjust-ad-auto-button-a-setting-44384.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="floppy-disk-harware-save-file-data-46210" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\floppy-disk-harware-save-file-data-46210.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caret-down-arrow-navigation-44553" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caret-down-arrow-navigation-44553.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google-search-engine-find-anything-46241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\google-search-engine-find-anything-46241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-text-document-word-txt-note-notepad-46197" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-text-document-word-txt-note-notepad-46197.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="github-online-project-hosting-square-46234" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\github-online-project-hosting-square-46234.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caret-right-arrow-navigation-44570" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caret-right-arrow-navigation-44570.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery-charge-law-charging-damage-full-1-44453" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery-charge-law-charging-damage-full-1-44453.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-text-alphabet-word-letter-a-46214" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-text-alphabet-word-letter-a-46214.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="briefcase-case-work-bag-suitcase-stationary-44555" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\briefcase-case-work-bag-suitcase-stationary-44555.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diamond-gems-crystal-jewellery-cubic-44620" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diamond-gems-crystal-jewellery-cubic-44620.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gamepad-play-remote-playstation-videogame-joystick-46223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gamepad-play-remote-playstation-videogame-joystick-46223.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cogs-wheel-gears-settings-44596" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cogs-wheel-gears-settings-44596.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ellipsis-horizontal-menu-grid-collection-44652" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ellipsis-horizontal-menu-grid-collection-44652.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gg-good-game-play-logo-circle-46228" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gg-good-game-play-logo-circle-46228.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevron-turn-swipe-right-navigtion-44578" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-turn-swipe-right-navigtion-44578.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="h-hike-social-media-logo-square-46245" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\h-hike-social-media-logo-square-46245.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bars-collection-view-application-grid-menu-44415" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bars-collection-view-application-grid-menu-44415.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google-plus-share-find-anything-social-media-square-46239" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\google-plus-share-find-anything-social-media-square-46239.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diners-club-credit-debit-card-bank-transaction-44622" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diners-club-credit-debit-card-bank-transaction-44622.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globe-world-wide-earth-planet-ecology-46238" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globe-world-wide-earth-planet-ecology-46238.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye-see-watch-human-body-organ-part-effect-44658" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye-see-watch-human-body-organ-part-effect-44658.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle-notch-break-unfill-broke-round-44580" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle-notch-break-unfill-broke-round-44580.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-audio-volume-speaker-music-document-sound-46184" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-audio-volume-speaker-music-document-sound-46184.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anchor-sailling-ship-armature-kedge-anker-44448" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anchor-sailling-ship-armature-kedge-anker-44448.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caret-up-arrow-navigation-44563" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caret-up-arrow-navigation-44563.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bull-horn-branding-marketing-promotion-voice-announcement-44549" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bull-horn-branding-marketing-promotion-voice-announcement-44549.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="credit-card-debit-bank-transaction-atm-44600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\credit-card-debit-bank-transaction-atm-44600.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="envelope-mail-email-message-letter-note-inbox-communication-square-44648" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\envelope-mail-email-message-letter-note-inbox-communication-square-44648.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="certificate-label-decoration-celebration-ribbon-decore-44548" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\certificate-label-decoration-celebration-ribbon-decore-44548.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facebook-social-media-fb-logo-square-44659" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facebook-social-media-fb-logo-square-44659.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-house-building-page-city-casa-old-vintage-46266" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-house-building-page-city-casa-old-vintage-46266.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-circle-right-button-navigation-44397" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-circle-right-button-navigation-44397.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-up-path-direction-top-traffic-follow-44454" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-up-path-direction-top-traffic-follow-44454.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-archive-zip-compress-document-data-46193" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-archive-zip-compress-document-data-46193.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="area-chart-graph-statistics-review-analysis-44450" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\area-chart-graph-statistics-review-analysis-44450.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar-minus-time-date-schedule-manage-month-year-44528" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar-minus-time-date-schedule-manage-month-year-44528.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar-time-date-schedule-manage-month-year-reminder-44560" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar-time-date-schedule-manage-month-year-reminder-44560.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cubes-symmetrical-three-dimensional-shape-design-44604" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cubes-symmetrical-three-dimensional-shape-design-44604.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bell-o-ring-alarm-voice-reminder-44431" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bell-o-ring-alarm-voice-reminder-44431.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cut-scissor-stationary-tool-44630" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cut-scissor-stationary-tool-44630.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar-times-time-date-schedule-manage-month-remove-cross-44559" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar-times-time-date-schedule-manage-month-remove-cross-44559.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="envelope-mail-email-message-letter-note-communication-44644" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\envelope-mail-email-message-letter-note-communication-44644.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
